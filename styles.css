@@ -57,6 +57,11 @@ body {
   align-items: center;
 }
 
+.header-nav {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 .header-nav-list {
   display: none;
 }
@@ -76,6 +81,11 @@ body {
 @media screen and (min-width: 768px) {
   .burger-btn {
     display: none;
+  }
+
+  .header-nav {
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 
   .header-nav-list {
@@ -99,8 +109,6 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
-    padding-top: 23px;
-    padding-bottom: 23px;
   }
 }
 /* Desktop styles */
